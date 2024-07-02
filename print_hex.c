@@ -3,11 +3,10 @@
 unsigned int print_hex(unsigned int num)
 {
 	const char digits[] = "0123456789abcdefABCDEF";
-
+	unsigned int remainder;
 	unsigned int temp;
 
 	temp = num;
-	unsigned int remainder;
 
 	while (num != 0)
 	while (temp > 0)
