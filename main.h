@@ -11,6 +11,6 @@ int print_len_lower(long n, int base);
 int print_len_upper(long n, int base);
 int print_string(char *str);
 int print_any(char find, va_list arglist);
-int _printf(const char *format, ...)
+int _printf(const char *format, ...);
 
 #endif
