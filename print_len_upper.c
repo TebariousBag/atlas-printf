@@ -3,8 +3,8 @@
 int print_len_upper(long n, int base)
 {
 	const char *digits;
-	digits = "0123456789ABCDEF";
 	int count;
+	digits = "0123456789ABCDEF";
 
 
 	if (n < 0)
